@@ -138,6 +138,13 @@ internal class Program
 
     static async Task Main()
     {
+        new Generic.Covariance();
+        new Generic.Contravariance();
+        new Generic.CovarianceContravariance();
+
+        new Lazy();
+        new Lazy2();
+
         #region #virtual #override
         double r = 3.0, h = 5.0;
 
